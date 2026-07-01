@@ -26,7 +26,7 @@
       line-height: 1.6;
     }
 
-    /* ── NAV ── */
+    /* NAV */
     nav {
       background: var(--navy);
       padding: 0 24px;
@@ -66,7 +66,7 @@
     }
     nav a.nav-link:hover { color: var(--white); }
 
-    /* ── HERO ── */
+    /* HERO */
     .hero {
       background: var(--navy);
       color: var(--white);
@@ -118,7 +118,7 @@
     }
     .hero-cta:hover { opacity: 0.88; }
 
-    /* ── STATS BAR ── */
+    /* STATS BAR */
     .stats-bar {
       background: var(--white);
       border-bottom: 1px solid var(--border);
@@ -147,7 +147,7 @@
       letter-spacing: 0.3px;
     }
 
-    /* ── SECTIONS ── */
+    /* SECTIONS */
     section {
       padding: 64px 24px;
       max-width: 1000px;
@@ -175,7 +175,7 @@
       margin-bottom: 40px;
     }
 
-    /* ── WHO WE SERVE ── */
+    /* WHO WE SERVE */
     .roles-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -204,7 +204,7 @@
       line-height: 1.5;
     }
 
-    /* ── FEATURES ── */
+    /* FEATURES */
     .features-bg {
       background: var(--white);
       border-top: 1px solid var(--border);
@@ -239,7 +239,7 @@
       line-height: 1.5;
     }
 
-    /* ── LANGUAGE SECTION ── */
+    /* LANGUAGE SECTION */
     .lang-tags {
       display: flex;
       flex-wrap: wrap;
@@ -255,7 +255,7 @@
       border-radius: 20px;
     }
 
-    /* ── ABOUT ── */
+    /* ABOUT */
     .about-box {
       background: var(--white);
       border: 1px solid var(--border);
@@ -270,7 +270,7 @@
     }
     .about-box p:last-child { margin-bottom: 0; }
 
-    /* ── CONTACT ── */
+    /* CONTACT */
     .contact-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -302,7 +302,7 @@
     }
     .contact-card a:hover { text-decoration: underline; }
 
-    /* ── DISCLAIMER ── */
+    /* DISCLAIMER */
     .disclaimer {
       background: #FFF8F0;
       border: 1px solid #F0D5A0;
@@ -314,7 +314,7 @@
       margin-top: 40px;
     }
 
-    /* ── PRIVACY ── */
+    /* PRIVACY */
     .privacy-section {
       background: var(--cream);
     }
@@ -339,7 +339,7 @@
     }
     .privacy-box ul { padding-left: 18px; }
 
-    /* ── FOOTER ── */
+    /* FOOTER */
     footer {
       background: var(--navy);
       color: rgba(255,255,255,0.6);
@@ -366,7 +366,6 @@
     <div class="logo-icon">PL</div>
     <span>PuraLawAI</span>
   </a>
-
 </nav>
 
 <!-- HERO -->
@@ -380,8 +379,12 @@
 <!-- STATS -->
 <div class="stats-bar">
   <div class="stat">
+    <span class="stat-num">23+</span>
+    <span class="stat-label">Voice Languages</span>
+  </div>
+  <div class="stat">
     <span class="stat-num">36+</span>
-    <span class="stat-label">Indian Languages</span>
+    <span class="stat-label">Text Languages</span>
   </div>
   <div class="stat">
     <span class="stat-num">4</span>
@@ -391,10 +394,7 @@
     <span class="stat-num">36</span>
     <span class="stat-label">States &amp; UTs</span>
   </div>
-  <div class="stat">
-    <span class="stat-num">15+</span>
-    <span class="stat-label">Indian Laws Covered</span>
-  </div>
+
 </div>
 
 <!-- WHO WE SERVE -->
@@ -498,8 +498,8 @@
 <!-- LANGUAGE -->
 <section>
   <div class="section-label">Language Access</div>
-  <h2>36+ Indian Languages via Bhashini</h2>
-  <p class="section-sub">PuraLawAI wants to integrate with Bhashini — India&#39;s national language AI platform — to bring legal assistance in every Indian language, including voice input and output, text to text, speech to speech, speech to text, text to speech and more.</p>
+  <h2>23+ Voice Languages and 36+ Text Languages via Bhashini</h2>
+  <p class="section-sub">PuraLawAI wants to integrate with Bhashini — India&#39;s national language AI platform — to bring legal assistance in Indian languages, including voice input and output, text to text, speech to speech, speech to text, text to speech and more.</p>
 
   <div class="lang-tags">
     <span class="lang-tag">Assamese</span>
@@ -516,11 +516,9 @@
     <span class="lang-tag">Odia</span>
     <span class="lang-tag">Urdu</span>
     <span class="lang-tag">Maithili</span>
-    <span class="lang-tag">Santali</span>
-    <span class="lang-tag">Kashmiri</span>
     <span class="lang-tag">Manipuri</span>
     <span class="lang-tag">Nepali</span>
-    <span class="lang-tag">+ 18 more</span>
+    <span class="lang-tag">+ 20 more</span>
   </div>
 </section>
 
@@ -532,8 +530,8 @@
 
     <div class="about-box">
       <p>PuraLawAI is an AI-powered legal assistance platform developed in Assam, India, with a vision to make quality legal guidance accessible to every Indian — regardless of location, language, or economic background.</p>
-      <p>We are currently in active development and internal testing. PuraLawAI is built on top of advanced large language models and is designed specifically for the Indian legal system, incorporating BNS 2023, BNSS 2023, BSA 2023 and other landmark legislation alongside established law.</p>
-      <p>Our platform serves advocates, judges, police officers and common citizens across India. We want to integrate with Bhashini to bring voice-enabled legal assistance in 36+ Indian languages.</p>
+      <p>We are currently in active development and internal testing. PuraLawAI is designed specifically for the Indian legal system, incorporating BNS 2023, BNSS 2023, BSA 2023 and other landmark legislation alongside established law.</p>
+      <p>Our platform serves advocates, judges, police officers and common citizens across India. We want to integrate with Bhashini to bring voice-enabled legal assistance in 23+ Indian voice languages and text translation across 36+ Indian languages.</p>
       <p>PuraLawAI is a prototype product developed in Nalbari, Assam — 781353, India.</p>
     </div>
   </section>
@@ -545,6 +543,7 @@
     <strong>Third-Party Services Notice:</strong> eCourts, Indian Kanoon and state Land Record portals are displayed within PuraLawAI via their official websites using a secure in-app browser. PuraLawAI does not store, modify or reproduce any content from these portals. All data displayed belongs to the respective government authorities. PuraLawAI is not affiliated with or endorsed by eCourts, Indian Kanoon, any state government or any government body.
   </div>
 </section>
+
 <div class="features-bg">
   <section id="contact">
     <div class="section-label">Get In Touch</div>
